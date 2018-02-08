@@ -1,0 +1,17 @@
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\bin\Debug\Blog.Repository.dll.config
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\bin\Debug\Blog.Repository.dll
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\bin\Debug\Blog.Repository.pdb
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\bin\Debug\Blog.DAL.dll
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\bin\Debug\Blog.Entity.dll
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\bin\Debug\Blog.DAL.pdb
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\bin\Debug\Blog.DAL.dll.config
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\bin\Debug\Blog.Entity.pdb
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\bin\Debug\Blog.Entity.dll.config
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\obj\Debug\Blog.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\obj\Debug\Blog.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\obj\Debug\Blog.Repository.dll
+C:\Users\Kübra\Desktop\Blog\Blog.Repository\obj\Debug\Blog.Repository.pdb

@@ -1,0 +1,201 @@
+﻿@using System.Web.Optimization
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,400italic%7cMontserrat:400,700" rel="stylesheet" type="text/css">
+
+    <link href="~/Content/Admin/css/typicons.min.css" rel="stylesheet">
+    <link href="~/Content/Admin/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/Admin/css/icheck/minimal.css" rel="stylesheet">
+    <link href="~/Content/Admin/css/bootstrap.min.css" rel="stylesheet">  
+    <link href="~/Content/Admin/css/plugins.min.css" rel="stylesheet">   
+    <link href="~/Content/Admin/css/main.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="page-container">
+        <aside id="sidebar">
+            <header class="sidebar-header">
+                <h1><img src="~/Content/Admin/img/logo.png" alt="Saltkin"></h1>
+                <a href="#" id="make-compact"><span class="typcn typcn-th-menu"></span></a>
+                <a href="#" id="hide-menu"><span class="fa fa-caret-square-o-left"></span></a>
+            </header>
+            <ul class="sidebar-group">
+                <li class="sidebar-group-header">NAVIGATION</li>
+                <li>
+                    <a href="/Admin/Dashboard/Index"><i class="typcn typcn-home"></i> <span>Dashboard</span></a>
+                    <div class="sidebar-link-addon"><i class="typcn typcn-plus"></i></div>
+                </li>
+                <li class="has-submenu">
+                    <a href="#"><i class="typcn typcn-tabs-outline"></i> <span>Kullanıcılar</span></a>
+                    <div class="sidebar-link-addon"><i class="typcn typcn-plus"></i></div>
+                    <ul class="sidebar-submenu ">
+                        <li><a href="/Admin/Dashboard/Kullanici">Kullanıcıları Düzenle</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="#"><i class="typcn typcn-compass"></i> <span>Makaleler</span></a>
+                    <div class="sidebar-link-addon"><i class="typcn typcn-plus"></i></div>
+                    <ul class="sidebar-submenu ">
+                        <li><a href="/Admin/Makale/Add">Makale Ekle</a></li>
+                        <li><a href="/Admin/Makale/List">Makaleleri Düzenle</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="#"><i class="typcn typcn-clipboard"></i> <span>Yorumlar</span></a>
+                    <div class="sidebar-link-addon"><i class="typcn typcn-plus"></i></div>
+                    <ul class="sidebar-submenu">
+                        <li><a href="/Admin/Dashboard/Yorum">Yorumları Düzenle</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <div id="content">
+            <nav class="header-site">
+                <div class="container-fluid">
+                    <div class="page-title">
+                        <h4><a href="#" id="toggle-menu"><i class="typcn typcn-th-menu"></i></a><span>YÖNETİM PANELİ</span></h4>
+                    </div>
+                    <ul class="header-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="typcn typcn-messages"></span></a>
+                            <span class="badge">3</span>
+                            <div class="dropdown-menu panel panel-messages dropdown-arrow pull-right">
+                                <div class="panel-heading">MESSAGES <span class="badge pull-right bg-orange">NEW</span></div>
+                                <div class="panel-body scrollbox">
+                                    <ul class="chat">
+                                        <li class="left clearfix">
+                                            <a href="#">
+                                                <span class="chat-img pull-left">
+                                                    <img src="~/Content/Admin/placeholders/user1.jpg" alt="User Avatar" class="img-circle">
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                    <div class="header">
+                                                        <strong class="primary-font">Jon Bateman</strong>
+                                                        <small class="pull-right text-muted">
+                                                            <span class="glyphicon glyphicon-time"></span>12 mins ago
+                                                        </small>
+                                                    </div>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibend...
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="left clearfix">
+                                            <a href="#">
+                                                <span class="chat-img pull-left">
+                                                    <img src="~/Content/Admin/placeholders/user2.jpg" alt="User Avatar" class="img-circle">
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                    <div class="header">
+                                                        <strong class="primary-font">Sam Smalls</strong>
+                                                        <small class="pull-right text-muted">
+                                                            <span class="glyphicon glyphicon-time"></span>12 mins ago
+                                                        </small>
+                                                    </div>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibend...
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="left clearfix">
+                                            <a href="#">
+                                                <span class="chat-img pull-left">
+                                                    <img src="~/Content/Admin/placeholders/user1.jpg" alt="User Avatar" class="img-circle">
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                    <div class="header">
+                                                        <strong class="primary-font">The Flash</strong>
+                                                        <small class="pull-right text-muted">
+                                                            <span class="glyphicon glyphicon-time"></span>12 mins ago
+                                                        </small>
+                                                    </div>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibend...
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="left clearfix">
+                                            <a href="#">
+                                                <span class="chat-img pull-left">
+                                                    <img src="~/Content/Admin/placeholders/user2.jpg" alt="User Avatar" class="img-circle">
+                                                </span>
+                                                <div class="chat-body clearfix">
+                                                    <div class="header">
+                                                        <strong class="primary-font">Bruce Nolan</strong>
+                                                        <small class="pull-right text-muted">
+                                                            <span class="glyphicon glyphicon-time"></span>12 mins ago
+                                                        </small>
+                                                    </div>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibend...
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <footer class="panel-footer text-center">
+                                    <a href="#">View all messages</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <!-- /Messages -->
+      
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="~/Content/Admin/img/user.jpg" ></a>
+                            <ul class="dropdown-menu dropdown-arrow pull-right">
+                                <li><a href="#"><span class="typcn typcn-edit"></span>Profili Düzenle</a></li>
+                                <li class="divider"></li>
+                                <li><a type="submit" href="/Admin/Account/LogOut"><span class="typcn typcn-power"></span>Çıkış Yap</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <header class="panel-heading"></header>
+                            @RenderBody()
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Content/Admin/js/jquery.min.js"></script>
+    <script src="~/Content/Admin/js/modernizr.min.js"></script>
+    <script src="~/Content/Admin/js/bootstrap.min.js"></script>
+    <script src="~/Content/Admin/js/enscroll.min.js"></script>
+    <script src="~/Content/Admin/js/knob.min.js"></script>
+    <script src="~/Content/Admin/js/footable.min.js"></script>
+    <script src="~/Content/Admin/js/summernote.min.js"></script>
+    <script src="~/Content/Admin/js/multimenu.min.js"></script>
+    <script src="~/Content/Admin/js/icheck.min.js"></script>
+    <script src="~/Content/Admin/js/sparkline.min.js"></script>
+    <script src="~/Content/Admin/js/plugins/rickshaw/d3.v3.js"></script>
+    <script src="~/Content/Admin/js/plugins/rickshaw/rickshaw.min.js"></script>
+    <script src="~/Content/Admin/js/flot.min.js"></script>
+    <script src="~/Content/Admin/js/plugins/calendar/underscore.min.js"></script>
+    <script src="~/Content/Admin/js/plugins/calendar/calendar.min.js"></script>
+    <script src="~/Content/Admin/js/maskedinput.min.js"></script>
+    <script src="~/Content/Admin/js/plugins/datepicker/moment.min.js"></script>
+    <script src="~/Content/Admin/js/plugins/datepicker/datetimepicker.min.js"></script>
+    <script src="~/Content/Admin/js/page-form-elements.js"></script>
+    <script src="~/Content/Admin/js/main.js"></script>
+</body>
+</html>

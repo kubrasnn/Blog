@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+@using System.Web.Optimization
+@using Blog.Entity.Entities;
+@using Blog.MVC.Models;
+@model MakaleListViewModel
+
+
+
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>WomanCoder</title>
+
+        <meta name="description" content="WomanCoder">
+        <meta name="author" content="htmlcoder.me">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="~/Content/Site/images/favicon.ico">
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+        <link href="~/Content/Site/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="~/Content/Site/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+        @Styles.Render("~/bundles/styles")
+
+    </head>
+
+    <body class="no-trans">
+
+        <div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+        <header class="header fixed clearfix navbar navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+
+                        <div class="header-left clearfix">
+
+                            <div class="logo smooth-scroll">
+                                <a href="#banner"><img id="logo" src="~/Content/Site/images/logo.png" alt="WomanCoder"></a>
+                            </div>
+
+
+                            <div class="site-name-and-slogan smooth-scroll">
+                                <div class="site-name"><a href="#banner">WomanCoder</a></div>
+                                <div class="site-slogan">Yazılımcı Blogger</div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-8">
+
+                        <div class="header-right clearfix">
+
+                            <div class="main-navigation animated">
+
+                                <nav class="navbar navbar-default" role="navigation">
+                                    <div class="container-fluid">
+
+                                        <!-- Toggle get grouped for better mobile display -->
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                        </div>
+                                        <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+                                            <ul class="nav navbar-nav navbar-right">
+                                                <li class="active"><a href="#banner">Anasayfa</a></li>
+                                                <li><a href="#hakkımda">Hakkımda</a></li>
+                                                <li><a href="#portfolyo">Portfolyo</a></li>
+                                                <li><a href="#iletisim">İletişim</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </nav>
+
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="banner" class="banner">
+            <div class="banner-image"></div>
+            <div class="banner-caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
+                            <h1 class="text-center">Woman Coders</h1>
+                            <p class="lead text-center">Bilişime Yön Veren Yazılımcı Kadınları gelin birlikte tanıyalım...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 id="hakkımda" class="title text-center">Hakkımda </h1>
+                        <div class="space"></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="~/Content/Site/images/yazılım.jpg" alt="">
+                                <div class="space"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <p>
+                                    WomanCoder’a Hoşgeldiniz!
+                                    <br />
+                                    WomanCoder 18 Ocak 2018 tarihinde yazılımcı kadınlar ile ilgili bilgileri aktarmak amacı ile yayın hayatına başladı.
+                                    Blogda yazılım konularına ağırlık vermeyi düşünsem de ara sıra web tasarımı ve benzeri konulara da değinebilirim.
+                                    Kendimden bahsetmem gerekirse;  bayanım, İstanbul’da oturuyorum. Web yazılım, tasarım,C# programlama, OOP ve Masaüstü programlama benzeri konular ilgi alanıma giriyor. Kod yazmayı seviyorum.
+                                    Kişisel bir blog açmaktansa yararlı paylaşımlar yapabileceğim bir blogum olursa daha iyi olur düşüncesi ile bu blogu açtım.
+                                    Devamlı olarak notlarımı, yeni konularla ilgili bilgilerimi aktarmayı düşünüyorum.
+                                    Öncelikle, C# programlama, OOP ve Masaüstü programlama giriş  konuları ile başlayacağım, daha sonra veritabanı uygulamaları, ASP .Net, ADO.Net,  Mobil Programlama ve diğer konularla devam edeceğim. 6 ay sonra burası notlarımla, yazılarımla dolu bir blog olacak.
+                                    WomanCoder hit amaçlı açılmış bir blog değil. Sadece, bir not defteri…
+                                </p>
+                            </div>
+                        </div>
+                        <div class="space"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="default-bg space blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="text-center">Siz Neden Blogger Olmayasınız?</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <h1 class="text-center title" id="portfolyo">Portfolyo</h1>
+                <div class="separator"></div>
+                <p class="lead text-center">Bilişime Yön Veren Yazılımcı Kadınlar...</p>
+                <br>
+                <div class="row object-non-visible" data-animation-effect="fadeIn">
+
+                    <div class="col-md-12">
+                        <div class="container row grid-space-20">
+
+                           @foreach (var item in Model.Makaleler)
+                            {
+
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="image-box">
+                                        <div class="overlay-container">
+                                            <img src="~/Content/Site/images/portfolio-4.jpg" alt="">
+                                            <a class="overlay" data-toggle="modal" data-target="#project-@item.MakaleId">
+                                                <i class="fa fa-search-plus"></i>
+                                            </a>
+                                        </div>
+                                        <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-@item.MakaleId">@item.Baslik</a>
+                                    </div>
+
+                                    <div class="modal fade" id="project-@item.MakaleId" tabindex="-1" role="dialog" aria-labelledby="project" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                    <h4 class="modal-title" id="project-@item.MakaleId">@item.Baslik</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <h3>@item.Baslik</h3>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <p>@Html.Raw(item.Icerik)</p>
+                                                        </div>
+                                                        @*<div class="col-md-6">
+                                                                <img src="~/Content/Site/images/portfolio-1.jpg" alt="">
+                                                            </div>*@
+                                                    </div>
+                                                </div>
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            }
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+
+
+            <div class="footer section">
+                <div class="container">
+                    <h1 class="title text-center" id="iletisim">Bize Ulaşın</h1>
+                    <div class="space"></div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="footer-content">
+                                <ul class="list-icons">
+                                    <li><i class="fa fa-map-marker pr-10"></i> Barbaros Bulvarı Yıldız İş Hanı No :9 Kat :3 34353 Beşiktaş - İstanbul </li>
+                                    <li><i class="fa fa-phone pr-10"></i> 0212 381 50 00 </li>
+                                    <li><i class="fa fa-fax pr-10"></i> 0212 381 50 10 </li>
+                                    <li><i class="fa fa-envelope-o pr-10"></i> info@wissenakademie.com </li>
+                                </ul>
+                                <ul class="social-links">
+                                    <li class="facebook"><a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="twitter"><a target="_blank" href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                                    <li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+                                    <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+                                    <li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="footer-content">
+                                @using (Html.BeginForm("Index", "Site", FormMethod.Post))
+    {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary()
+                            <form role="form" id="footer-form">
+                                <div class="form-group has-feedback">
+                                    <label class="sr-only">Konu</label>
+                                    @Html.TextBoxFor(x => x.Iletisim.IletisimKonu, new { @placeholder = "Konu *", @class = "form-control", @type = "text" })
+                                    <i class="fa fa-user form-control-feedback"></i>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <label class="sr-only">Email adresi</label>
+                                    @Html.TextBoxFor(x => x.Iletisim.IletisimMail, new { @placeholder = "Email adresi *", @class = "form-control", @type = "email" })
+                                    <i class="fa fa-envelope form-control-feedback"></i>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <label class="sr-only">Açıklama</label>
+                                    @Html.TextAreaFor(x => x.Iletisim.Mesaj, new { @placeholder = "Mesajınızı yazınız *", @class = "form-control", @type = "text" })
+                                    <i class="fa fa-pencil form-control-feedback"></i>
+                                </div>
+                                <input type="submit" value="Gönder" class="btn btn-default">
+                            </form>
+}
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subfooter">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="text-center"> Copyright © 2018 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </footer>
+
+            <script type="text/javascript" src="~/Content/Site/plugins/jquery.min.js"></script>
+            <script type="text/javascript" src="~/Content/Site/bootstrap/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="~/Content/Site/plugins/modernizr.js"></script>
+            <script type="text/javascript" src="~/Content/Site/plugins/isotope/isotope.pkgd.min.js"></script>
+            <script type="text/javascript" src="~/Content/Site/plugins/jquery.backstretch.min.js"></script>
+            <script type="text/javascript" src="~/Content/Site/plugins/jquery.appear.js"></script>
+
+            @Scripts.Render("~/bundles/scripts")
+
+        </body>
+    </html>
+
+
+

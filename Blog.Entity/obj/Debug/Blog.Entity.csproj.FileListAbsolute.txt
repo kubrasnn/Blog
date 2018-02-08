@@ -1,0 +1,11 @@
+C:\Users\Kübra\Desktop\Blog\Blog.Entity\bin\Debug\Blog.Entity.dll.config
+C:\Users\Kübra\Desktop\Blog\Blog.Entity\bin\Debug\Blog.Entity.dll
+C:\Users\Kübra\Desktop\Blog\Blog.Entity\bin\Debug\Blog.Entity.pdb
+C:\Users\Kübra\Desktop\Blog\Blog.Entity\bin\Debug\EntityFramework.dll
+C:\Users\Kübra\Desktop\Blog\Blog.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kübra\Desktop\Blog\Blog.Entity\bin\Debug\EntityFramework.xml
+C:\Users\Kübra\Desktop\Blog\Blog.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kübra\Desktop\Blog\Blog.Entity\obj\Debug\Blog.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Kübra\Desktop\Blog\Blog.Entity\obj\Debug\Blog.Entity.dll
+C:\Users\Kübra\Desktop\Blog\Blog.Entity\obj\Debug\Blog.Entity.pdb
+C:\Users\Kübra\Desktop\Blog\Blog.Entity\obj\Debug\Blog.Entity.csprojResolveAssemblyReference.cache
